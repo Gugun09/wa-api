@@ -29,7 +29,7 @@ const client = new Client({
     puppeteer: { 
         headless: true,
         args: [
-            '--no-sanbox',
+            '--no-sandbox',
             '--disable-setuid-sandbox',
             '--disable-dev-shm-sandbox',
             '--disable-accelerated-2d-canvas',
